@@ -1,61 +1,117 @@
-body{
-    font-family:'Open Sans', sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
-   align-items: center;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:var(--Dark-02, #474747);
+    color: var(--Dark-02, #474747);
     font-size: 20px;
     font-weight: 400;
 }
 
-.Mary{
+.Mary {
     color: var(--Dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
 
 }
-.orange{
+
+.orange {
     color: #FD6E0A;
 }
 
-.btn{
-   background-color: #FD6E0A;
-   border-radius: 5px;
-   color: white;
-   /* height: 40px;
+.btn {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    /* height: 40px;
    width: 90px; */
-   font-size: 20px;
-   font-weight: 700;
-   border:0;
-   padding: 18px 35px 19px 36px;
-   height:64px ;
-   width: 150px;
-}
- .header{
-background-color: #FFF8F3; 
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px 19px 36px;
+    height: 64px;
+    width: 150px;
 }
 
-.banner{
+.header {
+    background-color: #FFF8F3;
+    background: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.banner {
     display: flex;
-    padding: 30px 30px 30px 189px;
+    padding: 20px 30px 0px 189px;
     align-items: center;
+    width: 1036px;
+    height: 518px;
+    justify-content: space-between;
 }
-.pic{
+
+.pic {
     width: 430px;
-    height: 480px;
+    height: 520px;
 }
+
+.bannergreeting {
+    font-size: 25px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.bannertitle {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.bannercontent {
+    /* margin-bottom: 80px; */
+    max-width: 400px;
+}
+
+.about {
+    margin: 130px 0px;
+    padding: 130px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.about-title {
+    color:#181818;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about-description {
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+
